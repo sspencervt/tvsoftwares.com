@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Timberline Ventures">
+  <rect width="64" height="64" rx="14" fill="#1f3a2e"/>
+  <path d="M8 46 L24 22 L32 33 L40 18 L56 46 Z" fill="#e9e4d8"/>
+  <path d="M36 24 L40 18 L44 24 L42 23 L40 25 L38 23 Z" fill="#1f3a2e" opacity="0.35"/>
+  <path d="M14 46 L18 38 L22 46 Z M22 46 L26 36 L30 46 Z M30 46 L34 38 L38 46 Z M38 46 L42 37 L46 46 Z" fill="#2f5a45"/>
+  <rect x="8" y="46" width="48" height="3" rx="1.5" fill="#c08a4a"/>
+</svg>
