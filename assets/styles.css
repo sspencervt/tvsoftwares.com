@@ -102,6 +102,13 @@ section { padding: clamp(4rem, 8vw, 6.5rem) 0; }
 .tag { align-self: flex-start; font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: .25rem .65rem; border-radius: 999px; background: #e3ece4; color: var(--pine); }
 .tag-soon { background: #f3e6d4; color: #8a5a22; }
 .card-links { display: flex; gap: 1rem; font-size: .9rem; font-weight: 600; margin-top: .6rem; }
+.card-featured { grid-column: span 2; }
+@media (max-width: 700px) { .card-featured { grid-column: auto; } }
+.card .card-tagline { flex: 0; font-family: var(--serif); font-size: 1.1rem; color: var(--forest); margin: 0; }
+.card-points { list-style: none; padding: 0; margin: .3rem 0 0; display: grid; gap: .45rem; font-size: .95rem; color: var(--muted); }
+.card-points li { padding-left: 1.1rem; position: relative; }
+.card-points li::before { content: ""; position: absolute; left: 0; top: .6em; width: 6px; height: 6px; border-radius: 50%; background: var(--amber); }
+.card-points strong { color: var(--ink); }
 .card-placeholder { border-style: dashed; background: transparent; justify-content: center; align-items: center; text-align: center; }
 
 /* Principles */
